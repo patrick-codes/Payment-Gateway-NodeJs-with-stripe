@@ -42,9 +42,9 @@ app.post('/payment', function(req, res){
 	.then((customer) => {
 
 		return stripe.charges.create({
-			amount: 2500,	 // Charging Rs 25
+			amount: 90000,	 // Charging Rs 25
 			description: 'App Development Product',
-			currency: 'INR',
+			currency: 'GBP',
 			customer: customer.id
 		});
 	})
