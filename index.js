@@ -3,8 +3,8 @@ const bodyparser = require('body-parser')
 const path = require('path')
 const app = express()
 
-var Publishable_Key = 'pk_test_51MVZe6J9AZQu9LnIcS6KGCapzo6De950iyEwmoJTWvkcdILXc6Qshk0a3TemERgDHD1daXdvOXfHWa0h35vmfgoh00oaL5xPgE'
-var Secret_Key = 'sk_test_51MVZe6J9AZQu9LnIan2hV093eAihBMSTGtC2BfzpLvtwmJqiofMOqNUMHSRd7aiCiqmX3a7VAgw4qiipnccoAYmJ00CFzcnhe5'
+var Publishable_Key = 'Publishable_Key'
+var Secret_Key = 'Secret_Key'
 
 const stripe = require('stripe')(Secret_Key)
 
